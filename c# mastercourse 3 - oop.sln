@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T16_01_01_StaticClasses", "T16_01_01_StaticClasses\T16_01_01_StaticClasses.csproj", "{AA73B923-5EF7-4F57-9594-3DFF5FDD0BEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T16_01_02_HomeworkStaticClasses", "T16_01_02_HomeworkStaticClasses\T16_01_02_HomeworkStaticClasses.csproj", "{C48F0252-1270-4F69-97F7-B1A5A33B7757}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AA73B923-5EF7-4F57-9594-3DFF5FDD0BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA73B923-5EF7-4F57-9594-3DFF5FDD0BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA73B923-5EF7-4F57-9594-3DFF5FDD0BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48F0252-1270-4F69-97F7-B1A5A33B7757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48F0252-1270-4F69-97F7-B1A5A33B7757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48F0252-1270-4F69-97F7-B1A5A33B7757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48F0252-1270-4F69-97F7-B1A5A33B7757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
