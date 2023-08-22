@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T16_01_01_StaticClasses", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T16_01_02_HomeworkStaticClasses", "T16_01_02_HomeworkStaticClasses\T16_01_02_HomeworkStaticClasses.csproj", "{C48F0252-1270-4F69-97F7-B1A5A33B7757}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T16_02_01_InstantiatedClasses", "T16_02_01_InstantiatedClasses\T16_02_01_InstantiatedClasses.csproj", "{9F384378-9145-43B1-8370-950E886B993C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T16_02_01_InstantiatedClasses", "T16_02_01_InstantiatedClasses\T16_02_01_InstantiatedClasses.csproj", "{9F384378-9145-43B1-8370-950E886B993C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T16_02_02_HomeworkInstantiatedClasses", "T16_02_02_HomeworkInstantiatedClasses\T16_02_02_HomeworkInstantiatedClasses.csproj", "{AB492117-EAFC-4C67-8352-61195AF00A56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9F384378-9145-43B1-8370-950E886B993C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F384378-9145-43B1-8370-950E886B993C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F384378-9145-43B1-8370-950E886B993C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB492117-EAFC-4C67-8352-61195AF00A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB492117-EAFC-4C67-8352-61195AF00A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB492117-EAFC-4C67-8352-61195AF00A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB492117-EAFC-4C67-8352-61195AF00A56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
