@@ -7,8 +7,6 @@ namespace T18_01_01_ClassLibraries
         static void Main(string[] args)
         {
             PersonModel person = new();
-
-
         }
     }
 }
