@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T16_02_02_HomeworkInstantia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T17_01_01_PropertyTypes", "T17_01_01_PropertyTypes\T17_01_01_PropertyTypes.csproj", "{61B05E79-2192-4785-A2B2-DCA53920DF38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T17_01_02_HomeworkPropertyTypes", "T17_01_02_HomeworkPropertyTypes\T17_01_02_HomeworkPropertyTypes.csproj", "{A085166D-B6A1-454A-9C02-CBA27B6E091C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{61B05E79-2192-4785-A2B2-DCA53920DF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B05E79-2192-4785-A2B2-DCA53920DF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B05E79-2192-4785-A2B2-DCA53920DF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A085166D-B6A1-454A-9C02-CBA27B6E091C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A085166D-B6A1-454A-9C02-CBA27B6E091C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A085166D-B6A1-454A-9C02-CBA27B6E091C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A085166D-B6A1-454A-9C02-CBA27B6E091C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
