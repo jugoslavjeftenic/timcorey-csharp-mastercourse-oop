@@ -19,13 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T17_02_01_Namespaces", "T17
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T17_02_02_HomeworkNamespaces", "T17_02_02_HomeworkNamespaces\T17_02_02_HomeworkNamespaces.csproj", "{E309ED03-9A1E-4D61-BC67-5E80996C4304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_01_01_ClassLibraries", "T18_01_01_ClassLibraries\T18_01_01_ClassLibraries.csproj", "{22C06D69-B17C-4CFC-A309-8C3FA0FF6846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_01_01_ClassLibraries", "T18_01_01_ClassLibraries\T18_01_01_ClassLibraries.csproj", "{22C06D69-B17C-4CFC-A309-8C3FA0FF6846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_01_01_ClassLibrariesLibrary", "T18_01_01_ClassLibrariesLibrary\T18_01_01_ClassLibrariesLibrary.csproj", "{E4145D64-80BF-4A36-9E31-5B5247EA09DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_01_01_ClassLibrariesLibrary", "T18_01_01_ClassLibrariesLibrary\T18_01_01_ClassLibrariesLibrary.csproj", "{E4145D64-80BF-4A36-9E31-5B5247EA09DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_01_02_HomeworkClassLibraries", "T18_01_02_HomeworkClassLibraries\T18_01_02_HomeworkClassLibraries.csproj", "{C9AE0D3C-2166-4CC7-ABE4-C838629EF04D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_01_02_HomeworkClassLibraries", "T18_01_02_HomeworkClassLibraries\T18_01_02_HomeworkClassLibraries.csproj", "{C9AE0D3C-2166-4CC7-ABE4-C838629EF04D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_01_02_HomeworkClassLibrariesLibrary", "T18_01_02_HomeworkClassLibrariesLibrary\T18_01_02_HomeworkClassLibrariesLibrary.csproj", "{618C0A13-BBA5-40DE-9757-73992A1486BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_01_02_HomeworkClassLibrariesLibrary", "T18_01_02_HomeworkClassLibrariesLibrary\T18_01_02_HomeworkClassLibrariesLibrary.csproj", "{618C0A13-BBA5-40DE-9757-73992A1486BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_01_MiniProjectGuestBook", "T18_02_01_MiniProjectGuestBook\T18_02_01_MiniProjectGuestBook.csproj", "{E5687BF3-5EFC-48E5-B79E-931A7151F33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_01_MiniProjectGuestBookLibrary", "T18_02_01_MiniProjectGuestBookLibrary\T18_02_01_MiniProjectGuestBookLibrary.csproj", "{01650941-77EE-4ECF-9299-D6C0C625AF65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{618C0A13-BBA5-40DE-9757-73992A1486BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{618C0A13-BBA5-40DE-9757-73992A1486BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{618C0A13-BBA5-40DE-9757-73992A1486BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5687BF3-5EFC-48E5-B79E-931A7151F33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5687BF3-5EFC-48E5-B79E-931A7151F33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5687BF3-5EFC-48E5-B79E-931A7151F33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5687BF3-5EFC-48E5-B79E-931A7151F33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01650941-77EE-4ECF-9299-D6C0C625AF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01650941-77EE-4ECF-9299-D6C0C625AF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01650941-77EE-4ECF-9299-D6C0C625AF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01650941-77EE-4ECF-9299-D6C0C625AF65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
