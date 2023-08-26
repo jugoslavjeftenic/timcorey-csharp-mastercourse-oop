@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_01_MiniProjectGuestB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_01_MiniProjectGuestBookLibrary", "T18_02_01_MiniProjectGuestBookLibrary\T18_02_01_MiniProjectGuestBookLibrary.csproj", "{01650941-77EE-4ECF-9299-D6C0C625AF65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_02_HomeworkMiniProjectGuestBook", "T18_02_02_HomeworkMiniProjectGuestBook\T18_02_02_HomeworkMiniProjectGuestBook.csproj", "{71348F49-878C-41E0-99F7-6FF40A147B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_02_HomeworkMiniProjectGuestBookLibrary", "T18_02_02_HomeworkMiniProjectGuestBookLibrary\T18_02_02_HomeworkMiniProjectGuestBookLibrary.csproj", "{334A776B-8CE0-464C-A7FA-A736E8221673}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{01650941-77EE-4ECF-9299-D6C0C625AF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01650941-77EE-4ECF-9299-D6C0C625AF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01650941-77EE-4ECF-9299-D6C0C625AF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71348F49-878C-41E0-99F7-6FF40A147B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71348F49-878C-41E0-99F7-6FF40A147B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71348F49-878C-41E0-99F7-6FF40A147B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71348F49-878C-41E0-99F7-6FF40A147B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334A776B-8CE0-464C-A7FA-A736E8221673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334A776B-8CE0-464C-A7FA-A736E8221673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334A776B-8CE0-464C-A7FA-A736E8221673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334A776B-8CE0-464C-A7FA-A736E8221673}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
