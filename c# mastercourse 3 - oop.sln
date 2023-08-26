@@ -27,13 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_01_02_HomeworkClassLibr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_01_02_HomeworkClassLibrariesLibrary", "T18_01_02_HomeworkClassLibrariesLibrary\T18_01_02_HomeworkClassLibrariesLibrary.csproj", "{618C0A13-BBA5-40DE-9757-73992A1486BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_01_MiniProjectGuestBook", "T18_02_01_MiniProjectGuestBook\T18_02_01_MiniProjectGuestBook.csproj", "{E5687BF3-5EFC-48E5-B79E-931A7151F33D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_02_01_MiniProjectGuestBook", "T18_02_01_MiniProjectGuestBook\T18_02_01_MiniProjectGuestBook.csproj", "{E5687BF3-5EFC-48E5-B79E-931A7151F33D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_01_MiniProjectGuestBookLibrary", "T18_02_01_MiniProjectGuestBookLibrary\T18_02_01_MiniProjectGuestBookLibrary.csproj", "{01650941-77EE-4ECF-9299-D6C0C625AF65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_02_01_MiniProjectGuestBookLibrary", "T18_02_01_MiniProjectGuestBookLibrary\T18_02_01_MiniProjectGuestBookLibrary.csproj", "{01650941-77EE-4ECF-9299-D6C0C625AF65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_02_HomeworkMiniProjectGuestBook", "T18_02_02_HomeworkMiniProjectGuestBook\T18_02_02_HomeworkMiniProjectGuestBook.csproj", "{71348F49-878C-41E0-99F7-6FF40A147B75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_02_02_HomeworkMiniProjectGuestBook", "T18_02_02_HomeworkMiniProjectGuestBook\T18_02_02_HomeworkMiniProjectGuestBook.csproj", "{71348F49-878C-41E0-99F7-6FF40A147B75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T18_02_02_HomeworkMiniProjectGuestBookLibrary", "T18_02_02_HomeworkMiniProjectGuestBookLibrary\T18_02_02_HomeworkMiniProjectGuestBookLibrary.csproj", "{334A776B-8CE0-464C-A7FA-A736E8221673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_02_02_HomeworkMiniProjectGuestBookLibrary", "T18_02_02_HomeworkMiniProjectGuestBookLibrary\T18_02_02_HomeworkMiniProjectGuestBookLibrary.csproj", "{334A776B-8CE0-464C-A7FA-A736E8221673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T21_02_BattleshipLightLibrary", "T21_02_BattleshipLightLibrary\T21_02_BattleshipLightLibrary.csproj", "{C3AAE52D-84AC-4B53-9986-5A2540429FCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{334A776B-8CE0-464C-A7FA-A736E8221673}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{334A776B-8CE0-464C-A7FA-A736E8221673}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{334A776B-8CE0-464C-A7FA-A736E8221673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AAE52D-84AC-4B53-9986-5A2540429FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AAE52D-84AC-4B53-9986-5A2540429FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AAE52D-84AC-4B53-9986-5A2540429FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AAE52D-84AC-4B53-9986-5A2540429FCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
