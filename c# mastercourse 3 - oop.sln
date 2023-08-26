@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_02_02_HomeworkMiniProje
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T18_02_02_HomeworkMiniProjectGuestBookLibrary", "T18_02_02_HomeworkMiniProjectGuestBookLibrary\T18_02_02_HomeworkMiniProjectGuestBookLibrary.csproj", "{334A776B-8CE0-464C-A7FA-A736E8221673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T21_02_BattleshipLightLibrary", "T21_02_BattleshipLightLibrary\T21_02_BattleshipLightLibrary.csproj", "{C3AAE52D-84AC-4B53-9986-5A2540429FCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T21_02_BattleshipLightLibrary", "T21_02_BattleshipLightLibrary\T21_02_BattleshipLightLibrary.csproj", "{C3AAE52D-84AC-4B53-9986-5A2540429FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T21_01_BattleshipLight", "T21_01_BattleshipLight\T21_01_BattleshipLight.csproj", "{E2FB1C32-2F28-4099-9313-E1B20617A701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{C3AAE52D-84AC-4B53-9986-5A2540429FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3AAE52D-84AC-4B53-9986-5A2540429FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3AAE52D-84AC-4B53-9986-5A2540429FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FB1C32-2F28-4099-9313-E1B20617A701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FB1C32-2F28-4099-9313-E1B20617A701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FB1C32-2F28-4099-9313-E1B20617A701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FB1C32-2F28-4099-9313-E1B20617A701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
