@@ -1,7 +1,7 @@
-﻿using T21_02_BattleshipLightLibrary;
-using T21_02_BattleshipLightLibrary.Models;
+﻿using T21_BattleshipLightLibrary;
+using T21_BattleshipLightLibrary.Models;
 
-namespace T21_01_BattleshipLight
+namespace T21_BattleshipLight
 {
     public class Program
     {
@@ -74,7 +74,7 @@ namespace T21_01_BattleshipLight
             do
             {
                 Console.Write($"Where do you want to place ship number {model.ShipLocations?.Count + 1}: ");
-                string? location = Console.ReadLine();
+                string location = Console.ReadLine() ?? "";
 
                 bool isValidLocation = GameLogic.PlaceShip(model, location);
                 if (isValidLocation == false)
@@ -124,7 +124,7 @@ namespace T21_01_BattleshipLight
 
             do
             {
-                string? shot = AskForShot();
+                string shot = AskForShot() ?? "";
                 (row, column) = GameLogic.SplitShotIntoRowAndColumn(shot);
                 isValidShot = GameLogic.ValidateShot(activePlayer, row, column);
 
@@ -147,6 +147,7 @@ namespace T21_01_BattleshipLight
 
         private static string? AskForShot()
         {
+            Console.WriteLine();
             Console.Write("Please enter your shot selection: ");
             return Console.ReadLine();
         }

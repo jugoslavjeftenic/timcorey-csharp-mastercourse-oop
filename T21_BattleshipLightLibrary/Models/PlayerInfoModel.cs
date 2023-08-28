@@ -1,5 +1,5 @@
 ﻿
-namespace T21_02_BattleshipLightLibrary.Models
+namespace T21_BattleshipLightLibrary.Models
 {
     public class PlayerInfoModel
     {
