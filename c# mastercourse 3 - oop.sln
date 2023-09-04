@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_01_01_Inheritance", "T2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_01_02_HomeworkInheritance", "T24_01_02_HomeworkInheritance\T24_01_02_HomeworkInheritance.csproj", "{8530E024-AEFB-4A3D-BA1B-169F5E859C75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_02_01_Interfaces", "T24_02_01_Interfaces\T24_02_01_Interfaces.csproj", "{771B90C9-26A1-4F47-BB89-36808E786E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{8530E024-AEFB-4A3D-BA1B-169F5E859C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8530E024-AEFB-4A3D-BA1B-169F5E859C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8530E024-AEFB-4A3D-BA1B-169F5E859C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771B90C9-26A1-4F47-BB89-36808E786E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771B90C9-26A1-4F47-BB89-36808E786E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771B90C9-26A1-4F47-BB89-36808E786E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771B90C9-26A1-4F47-BB89-36808E786E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
