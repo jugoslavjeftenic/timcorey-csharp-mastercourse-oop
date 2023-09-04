@@ -36,7 +36,7 @@ namespace T21_BattleshipLight
         private static void WelcomeMessage()
         {
             Console.WriteLine("Welcome to Battleship Lite.");
-            Console.WriteLine("created by Tim Corey, modified by Jugoslav Jeftenic");
+            Console.WriteLine("created by Tim Corey");
             Console.WriteLine();
         }
 
@@ -76,7 +76,17 @@ namespace T21_BattleshipLight
                 Console.Write($"Where do you want to place ship number {model.ShipLocations?.Count + 1}: ");
                 string location = Console.ReadLine() ?? "";
 
-                bool isValidLocation = GameLogic.PlaceShip(model, location);
+                bool isValidLocation = false;
+
+                try
+                {
+                    isValidLocation = GameLogic.PlaceShip(model, location);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
+
                 if (isValidLocation == false)
                 {
                     Console.WriteLine("That was not a valid location. Please try again.");
@@ -114,6 +124,9 @@ namespace T21_BattleshipLight
                     Console.Write(" ?  ");
                 }
             }
+
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
         private static void RecordPlayerShot(PlayerInfoModel activePlayer, PlayerInfoModel opponent)
@@ -124,9 +137,16 @@ namespace T21_BattleshipLight
 
             do
             {
-                string shot = AskForShot() ?? "";
-                (row, column) = GameLogic.SplitShotIntoRowAndColumn(shot);
-                isValidShot = GameLogic.ValidateShot(activePlayer, row, column);
+                string shot = AskForShot(activePlayer) ?? "";
+                try
+                {
+                    (row, column) = GameLogic.SplitShotIntoRowAndColumn(shot);
+                    isValidShot = GameLogic.ValidateShot(activePlayer, row, column);
+                }
+                catch (Exception)
+                {
+                    isValidShot = false;
+                }
 
                 if (isValidShot == false)
                 {
@@ -137,18 +157,33 @@ namespace T21_BattleshipLight
             bool isAHit = GameLogic.IdentifyShotResult(opponent, row, column);
 
             GameLogic.MarkShotResult(activePlayer, row, column, isAHit);
+
+            DisplayShotResults(row, column, isAHit);
+        }
+
+        private static void DisplayShotResults(string row, int column, bool isAHit)
+        {
+            if (isAHit)
+            {
+                Console.WriteLine($"{row}{column} is a Hit!");
+            }
+            else
+            {
+                Console.WriteLine($"{row}{column} is a miss!");
+            }
+
+            Console.WriteLine();
         }
 
         private static void IdentifyWinner(PlayerInfoModel winner)
         {
-            Console.WriteLine($"Congratulationons to {winner.UserName} for winning!");
+            Console.WriteLine($"Congratulations to {winner.UserName} for winning!");
             Console.WriteLine($"{winner.UserName} took {GameLogic.GetShotCount(winner)} shots.");
         }
 
-        private static string? AskForShot()
+        private static string? AskForShot(PlayerInfoModel player)
         {
-            Console.WriteLine();
-            Console.Write("Please enter your shot selection: ");
+            Console.Write($"{player.UserName}, please enter your shot selection: ");
             return Console.ReadLine();
         }
     }

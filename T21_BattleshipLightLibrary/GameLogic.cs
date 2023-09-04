@@ -157,7 +157,8 @@ namespace T21_BattleshipLightLibrary
             {
                 if (ship.SpotLetter == row.ToUpper() && ship.SpotNumber == column)
                 {
-                    isAHit = false;
+                    isAHit = true;
+                    ship.Status = GridSpotStatus.Sunk;
                 }
             }
 
