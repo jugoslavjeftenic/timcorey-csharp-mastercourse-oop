@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_02_02_HomeworkInterface
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_03_01_InheritanceMiniProject", "T24_03_01_InheritanceMiniProject\T24_03_01_InheritanceMiniProject.csproj", "{79B0DE7E-9511-49FB-AFCE-490E10B11390}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_03_02_HomeworkInheritanceMiniProject", "T24_03_02_HomeworkInheritanceMiniProject\T24_03_02_HomeworkInheritanceMiniProject.csproj", "{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{79B0DE7E-9511-49FB-AFCE-490E10B11390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79B0DE7E-9511-49FB-AFCE-490E10B11390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79B0DE7E-9511-49FB-AFCE-490E10B11390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
