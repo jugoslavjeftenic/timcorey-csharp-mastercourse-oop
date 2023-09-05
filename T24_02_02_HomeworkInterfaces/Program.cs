@@ -1,4 +1,4 @@
-﻿namespace T24_02_02_Interfaces
+﻿namespace T24_02_02_HomeworkInterfaces
 {
     // Create an IRun interface and apply it ti a Person class and an Animal class.
     // Store both types in a List<IRun> object.

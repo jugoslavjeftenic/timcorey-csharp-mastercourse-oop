@@ -1,4 +1,4 @@
-﻿namespace T24_02_02_Interfaces
+﻿namespace T24_02_02_HomeworkInterfaces
 {
     public class Animal : IRun
     {

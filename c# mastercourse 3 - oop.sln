@@ -39,13 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T21_BattleshipLight", "T21_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T21_BattleshipLightLibrary", "T21_BattleshipLightLibrary\T21_BattleshipLightLibrary.csproj", "{BE057C17-DDEB-41F5-B50E-93C5E3C530F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_01_01_Inheritance", "T24_01_01_Inheritance\T24_01_01_Inheritance.csproj", "{71C7F702-9127-424B-BBB8-9B996D9349D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_01_01_Inheritance", "T24_01_01_Inheritance\T24_01_01_Inheritance.csproj", "{71C7F702-9127-424B-BBB8-9B996D9349D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_01_02_HomeworkInheritance", "T24_01_02_HomeworkInheritance\T24_01_02_HomeworkInheritance.csproj", "{8530E024-AEFB-4A3D-BA1B-169F5E859C75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_01_02_HomeworkInheritance", "T24_01_02_HomeworkInheritance\T24_01_02_HomeworkInheritance.csproj", "{8530E024-AEFB-4A3D-BA1B-169F5E859C75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_02_01_Interfaces", "T24_02_01_Interfaces\T24_02_01_Interfaces.csproj", "{771B90C9-26A1-4F47-BB89-36808E786E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_02_01_Interfaces", "T24_02_01_Interfaces\T24_02_01_Interfaces.csproj", "{771B90C9-26A1-4F47-BB89-36808E786E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_02_02_Interfaces", "T24_02_02_Interfaces\T24_02_02_Interfaces.csproj", "{446F910C-B194-4DC6-A3A9-EB4EA4EA7677}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_02_02_HomeworkInterfaces", "T24_02_02_HomeworkInterfaces\T24_02_02_HomeworkInterfaces.csproj", "{2C894D4D-1EDE-4E41-92B8-33049E60E58F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,10 +137,10 @@ Global
 		{771B90C9-26A1-4F47-BB89-36808E786E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{771B90C9-26A1-4F47-BB89-36808E786E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{771B90C9-26A1-4F47-BB89-36808E786E2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{446F910C-B194-4DC6-A3A9-EB4EA4EA7677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{446F910C-B194-4DC6-A3A9-EB4EA4EA7677}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{446F910C-B194-4DC6-A3A9-EB4EA4EA7677}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{446F910C-B194-4DC6-A3A9-EB4EA4EA7677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C894D4D-1EDE-4E41-92B8-33049E60E58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C894D4D-1EDE-4E41-92B8-33049E60E58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C894D4D-1EDE-4E41-92B8-33049E60E58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C894D4D-1EDE-4E41-92B8-33049E60E58F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
