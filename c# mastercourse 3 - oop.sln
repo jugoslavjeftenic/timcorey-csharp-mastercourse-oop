@@ -45,11 +45,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_01_02_HomeworkInheritan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_02_01_Interfaces", "T24_02_01_Interfaces\T24_02_01_Interfaces.csproj", "{771B90C9-26A1-4F47-BB89-36808E786E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_02_02_HomeworkInterfaces", "T24_02_02_HomeworkInterfaces\T24_02_02_HomeworkInterfaces.csproj", "{2C894D4D-1EDE-4E41-92B8-33049E60E58F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_02_02_HomeworkInterfaces", "T24_02_02_HomeworkInterfaces\T24_02_02_HomeworkInterfaces.csproj", "{2C894D4D-1EDE-4E41-92B8-33049E60E58F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_03_01_InheritanceMiniProject", "T24_03_01_InheritanceMiniProject\T24_03_01_InheritanceMiniProject.csproj", "{79B0DE7E-9511-49FB-AFCE-490E10B11390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_03_01_InheritanceMiniProject", "T24_03_01_InheritanceMiniProject\T24_03_01_InheritanceMiniProject.csproj", "{79B0DE7E-9511-49FB-AFCE-490E10B11390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T24_03_02_HomeworkInheritanceMiniProject", "T24_03_02_HomeworkInheritanceMiniProject\T24_03_02_HomeworkInheritanceMiniProject.csproj", "{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_03_02_HomeworkInheritanceMiniProject", "T24_03_02_HomeworkInheritanceMiniProject\T24_03_02_HomeworkInheritanceMiniProject.csproj", "{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_01_01_AccesModifiers", "T25_01_01_AccesModifiers\T25_01_01_AccesModifiers.csproj", "{4E3A1EA5-BAC1-4F6C-B8DE-5840985B9625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_01_01_AccesModifiersLibrary", "T25_01_01_AccesModifiersLibrary\T25_01_01_AccesModifiersLibrary.csproj", "{7EDCA176-870C-4FFD-A613-1E0993208DD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3A1EA5-BAC1-4F6C-B8DE-5840985B9625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3A1EA5-BAC1-4F6C-B8DE-5840985B9625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3A1EA5-BAC1-4F6C-B8DE-5840985B9625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3A1EA5-BAC1-4F6C-B8DE-5840985B9625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDCA176-870C-4FFD-A613-1E0993208DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDCA176-870C-4FFD-A613-1E0993208DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDCA176-870C-4FFD-A613-1E0993208DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDCA176-870C-4FFD-A613-1E0993208DD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
