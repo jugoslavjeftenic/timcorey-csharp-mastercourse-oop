@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_03_01_InheritanceMiniPr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T24_03_02_HomeworkInheritanceMiniProject", "T24_03_02_HomeworkInheritanceMiniProject\T24_03_02_HomeworkInheritanceMiniProject.csproj", "{85FA62AD-8F39-4FDE-BF65-5051A410C0BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_01_01_AccesModifiers", "T25_01_01_AccesModifiers\T25_01_01_AccesModifiers.csproj", "{4E3A1EA5-BAC1-4F6C-B8DE-5840985B9625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_01_01_AccesModifiers", "T25_01_01_AccesModifiers\T25_01_01_AccesModifiers.csproj", "{4E3A1EA5-BAC1-4F6C-B8DE-5840985B9625}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_01_01_AccesModifiersLibrary", "T25_01_01_AccesModifiersLibrary\T25_01_01_AccesModifiersLibrary.csproj", "{7EDCA176-870C-4FFD-A613-1E0993208DD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_01_01_AccesModifiersLibrary", "T25_01_01_AccesModifiersLibrary\T25_01_01_AccesModifiersLibrary.csproj", "{7EDCA176-870C-4FFD-A613-1E0993208DD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_01_02_HomeworkAccesModifiers", "T25_01_02_HomeworkAccesModifiers\T25_01_02_HomeworkAccesModifiers.csproj", "{5A22B7F2-4AB2-40CF-A894-519A8982506B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_01_02_HomeworkAccesModifiers", "T25_01_02_HomeworkAccesModifiers\T25_01_02_HomeworkAccesModifiers.csproj", "{5A22B7F2-4AB2-40CF-A894-519A8982506B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_01_02_HomeworkAccesModifiersLibrary", "T25_01_02_HomeworkAccesModifiersLibrary\T25_01_02_HomeworkAccesModifiersLibrary.csproj", "{40CE4363-A6BE-4FC2-AE13-4CD50D4257F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_01_02_HomeworkAccesModifiersLibrary", "T25_01_02_HomeworkAccesModifiersLibrary\T25_01_02_HomeworkAccesModifiersLibrary.csproj", "{40CE4363-A6BE-4FC2-AE13-4CD50D4257F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_02_01_AbstractClasses", "T25_02_01_AbstractClasses\T25_02_01_AbstractClasses.csproj", "{9110493E-EA65-47DE-8DB5-E6D6266761B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{40CE4363-A6BE-4FC2-AE13-4CD50D4257F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40CE4363-A6BE-4FC2-AE13-4CD50D4257F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40CE4363-A6BE-4FC2-AE13-4CD50D4257F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9110493E-EA65-47DE-8DB5-E6D6266761B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9110493E-EA65-47DE-8DB5-E6D6266761B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9110493E-EA65-47DE-8DB5-E6D6266761B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9110493E-EA65-47DE-8DB5-E6D6266761B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
