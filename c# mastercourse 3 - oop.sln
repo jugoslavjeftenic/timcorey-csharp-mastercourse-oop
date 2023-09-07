@@ -59,9 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_01_02_HomeworkAccesModi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_01_02_HomeworkAccesModifiersLibrary", "T25_01_02_HomeworkAccesModifiersLibrary\T25_01_02_HomeworkAccesModifiersLibrary.csproj", "{40CE4363-A6BE-4FC2-AE13-4CD50D4257F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_02_01_AbstractClasses", "T25_02_01_AbstractClasses\T25_02_01_AbstractClasses.csproj", "{9110493E-EA65-47DE-8DB5-E6D6266761B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_02_01_AbstractClasses", "T25_02_01_AbstractClasses\T25_02_01_AbstractClasses.csproj", "{9110493E-EA65-47DE-8DB5-E6D6266761B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_02_02_HomeworkAbstractClasses", "T25_02_02_HomeworkAbstractClasses\T25_02_02_HomeworkAbstractClasses.csproj", "{C92A619A-4A20-497E-8B1D-324E34ED3B05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_02_02_HomeworkAbstractClasses", "T25_02_02_HomeworkAbstractClasses\T25_02_02_HomeworkAbstractClasses.csproj", "{C92A619A-4A20-497E-8B1D-324E34ED3B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_03_01_MethodOverriding", "T25_03_01_MethodOverriding\T25_03_01_MethodOverriding.csproj", "{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{C92A619A-4A20-497E-8B1D-324E34ED3B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C92A619A-4A20-497E-8B1D-324E34ED3B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C92A619A-4A20-497E-8B1D-324E34ED3B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
