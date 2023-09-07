@@ -65,6 +65,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_02_02_HomeworkAbstractC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_03_01_MethodOverriding", "T25_03_01_MethodOverriding\T25_03_01_MethodOverriding.csproj", "{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_03_02_HomeworkMethodOverriding", "T25_03_02_HomeworkMethodOverriding\T25_03_02_HomeworkMethodOverriding.csproj", "{045E0A20-91C6-449B-BCAC-51F9A0C32E92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045E0A20-91C6-449B-BCAC-51F9A0C32E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045E0A20-91C6-449B-BCAC-51F9A0C32E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045E0A20-91C6-449B-BCAC-51F9A0C32E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045E0A20-91C6-449B-BCAC-51F9A0C32E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
