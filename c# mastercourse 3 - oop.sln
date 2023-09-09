@@ -63,11 +63,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_02_01_AbstractClasses",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_02_02_HomeworkAbstractClasses", "T25_02_02_HomeworkAbstractClasses\T25_02_02_HomeworkAbstractClasses.csproj", "{C92A619A-4A20-497E-8B1D-324E34ED3B05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_03_01_MethodOverriding", "T25_03_01_MethodOverriding\T25_03_01_MethodOverriding.csproj", "{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_03_01_MethodOverriding", "T25_03_01_MethodOverriding\T25_03_01_MethodOverriding.csproj", "{7B178FCF-99A9-4C04-BFBE-CB5E122609A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_03_02_HomeworkMethodOverriding", "T25_03_02_HomeworkMethodOverriding\T25_03_02_HomeworkMethodOverriding.csproj", "{045E0A20-91C6-449B-BCAC-51F9A0C32E92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_03_02_HomeworkMethodOverriding", "T25_03_02_HomeworkMethodOverriding\T25_03_02_HomeworkMethodOverriding.csproj", "{045E0A20-91C6-449B-BCAC-51F9A0C32E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_04_01_CardGame", "T25_04_01_CardGame\T25_04_01_CardGame.csproj", "{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_04_01_CardGame", "T25_04_01_CardGame\T25_04_01_CardGame.csproj", "{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_04_02_HomeworkCardGame", "T25_04_02_HomeworkCardGame\T25_04_02_HomeworkCardGame.csproj", "{B9AA04AA-B863-494F-B9A4-040E4B2E748F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +209,10 @@ Global
 		{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AA04AA-B863-494F-B9A4-040E4B2E748F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AA04AA-B863-494F-B9A4-040E4B2E748F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AA04AA-B863-494F-B9A4-040E4B2E748F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AA04AA-B863-494F-B9A4-040E4B2E748F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
