@@ -13,9 +13,14 @@ namespace T25_04_02_HomeworkCardGame
             do
             {
                 CardGameUI.WellcomeToGame();
-                PlayerModel player = CardGameUI.CreatePlayer();
+                PlayerModel humanPlayer = CardGameLogic.CreatePlayer();
+                PlayerModel computerPlayer = CardGameLogic.CreatePlayer(isComputerPlayer: true);
 
+                Console.WriteLine(humanPlayer.PlayerName);
+                Console.WriteLine(computerPlayer.PlayerName);
 
+                //Console.ReadKey();
+                CardGameUI.ExitGame();
             } while (true);
         }
     }
