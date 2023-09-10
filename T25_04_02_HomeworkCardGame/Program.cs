@@ -1,4 +1,5 @@
 ﻿
+using T25_04_02_HomeworkCardGame.Games;
 using T25_04_02_HomeworkCardGame.Models;
 
 namespace T25_04_02_HomeworkCardGame
@@ -13,14 +14,34 @@ namespace T25_04_02_HomeworkCardGame
             do
             {
                 CardGameUI.WellcomeToGame();
-                PlayerModel humanPlayer = CardGameLogic.CreatePlayer();
-                PlayerModel computerPlayer = CardGameLogic.CreatePlayer(isComputerPlayer: true);
 
-                Console.WriteLine(humanPlayer.PlayerName);
-                Console.WriteLine(computerPlayer.PlayerName);
+                // Create players
+                List<PlayerModel> players = new();
+                players.Add(CardGameLogic.CreatePlayer());
+                players.Add(CardGameLogic.CreatePlayer(isComputerPlayer: true));
 
-                //Console.ReadKey();
-                CardGameUI.ExitGame();
+
+                // Deal cards
+                BlackJackDeck blackJack = new();
+                foreach (var player in players)
+                {
+                    blackJack.DealCards(player);
+                }
+
+                do
+                {
+                    foreach (var player in players)
+                    {
+                        CardGameUI.ShowHand(player);
+                        if (CardGameUI.DrawAnotherHand(player))
+                        {
+                            player.Hand.Add(blackJack.dr)
+                        }
+                    }
+
+                    //Console.ReadKey();
+                    CardGameUI.ExitGame();
+                } while (true);
             } while (true);
         }
     }

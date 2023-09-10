@@ -10,16 +10,12 @@ namespace T25_04_02_HomeworkCardGame.Games
             ShuffleDeck();
         }
 
-        public override List<PlayingCardModel> DealCards()
+        public override void DealCards(PlayerModel player)
         {
-            List<PlayingCardModel> output = new();
-
             for (int i = 0; i < 2; i++)
             {
-                output.Add(DrawOneCard());
+                player.Hand.Add(DrawOneCard());
             }
-
-            return output;
         }
     }
 }

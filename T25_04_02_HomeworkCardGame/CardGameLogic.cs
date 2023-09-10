@@ -10,5 +10,12 @@ namespace T25_04_02_HomeworkCardGame
             PlayerModel player = new(isComputerPlayer);
             return player;
         }
+
+        protected virtual PlayingCardModel DrawOneCard()
+        {
+            PlayingCardModel output = drawPile.Take(1).First();
+            drawPile.Remove(output);
+            return output;
+        }
     }
 }
