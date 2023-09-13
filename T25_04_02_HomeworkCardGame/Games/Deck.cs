@@ -34,5 +34,12 @@ namespace T25_04_02_HomeworkCardGame.Games
         {
             return DrawOneCard();
         }
+
+        public virtual PlayingCardModel DrawOneCard()
+        {
+            PlayingCardModel output = drawPile.Take(1).First();
+            drawPile.Remove(output);
+            return output;
+        }
     }
 }

@@ -46,23 +46,18 @@ namespace T25_04_02_HomeworkCardGame
             }
         }
 
-        public static bool DrawAnotherHand(PlayerModel player)
+        public static void PlayerWon(PlayerModel player)
         {
-            if (player.IsComputerPlayer == false)
-            {
-                do
-                {
-                    Console.Write("Do you want to draw another card (y/n)? ");
-                    if (bool.TryParse(Console.ReadLine(), out bool drawAnother))
-                    {
-                        return drawAnother;
-                    }
+            Console.WriteLine();
+            Console.WriteLine($"Player {player.PlayerName} has won the game.");
+            ExitGame();
+        }
 
-                    Console.WriteLine("Please answer with \"y\" or \"n\"");
-                } while (true);
-            }
-
-            return true;
+        public static void PlayerLost(PlayerModel player)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Player {player.PlayerName} has lost the game.");
+            ExitGame();
         }
 
         public static void ExitGame()

@@ -16,13 +16,16 @@ namespace T25_04_02_HomeworkCardGame
                 CardGameUI.WellcomeToGame();
 
                 // Create players
-                List<PlayerModel> players = new();
-                players.Add(CardGameLogic.CreatePlayer());
-                players.Add(CardGameLogic.CreatePlayer(isComputerPlayer: true));
+                List<PlayerModel> players = new()
+                {
+                    CardGameLogic.CreatePlayer(),
+                    CardGameLogic.CreatePlayer(isComputerPlayer: true)
+                };
 
 
                 // Deal cards
                 BlackJackDeck blackJack = new();
+
                 foreach (var player in players)
                 {
                     blackJack.DealCards(player);
@@ -33,14 +36,36 @@ namespace T25_04_02_HomeworkCardGame
                     foreach (var player in players)
                     {
                         CardGameUI.ShowHand(player);
-                        if (CardGameUI.DrawAnotherHand(player))
+
+                        if (BlackJackDeck.IsNatural(player))
                         {
-                            player.Hand.Add(blackJack.dr)
+                            CardGameUI.PlayerWon(player);
+                        }
+
+                        if (BlackJackDeck.IsBust(player))
+                        {
+                            CardGameUI.PlayerLost(player);
+                        }
+
+                        if (BlackJackDeck.Hit(player))
+                        {
+                            player.Hand.Add(blackJack.DrawOneCard());
+                            CardGameUI.ShowHand(player);
+                        }
+
+                        if (BlackJackDeck.IsNatural(player))
+                        {
+                            CardGameUI.PlayerWon(player);
+                        }
+
+                        if (BlackJackDeck.IsBust(player))
+                        {
+                            CardGameUI.PlayerLost(player);
                         }
                     }
 
                     //Console.ReadKey();
-                    CardGameUI.ExitGame();
+                    //CardGameUI.ExitGame();
                 } while (true);
             } while (true);
         }
