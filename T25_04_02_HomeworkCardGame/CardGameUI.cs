@@ -5,7 +5,7 @@ namespace T25_04_02_HomeworkCardGame
 {
     internal static class CardGameUI
     {
-        public static void WellcomeToGame()
+        internal static void WellcomeToGame()
         {
             Console.Clear();
             Console.WriteLine("WELCOME to the Card Game.");
@@ -13,7 +13,7 @@ namespace T25_04_02_HomeworkCardGame
             Console.WriteLine();
         }
 
-        public static string AskForPlayerName()
+        internal static string AskForPlayerName()
         {
             Console.Write("Please enter your game name or \"exit\" to exit: ");
 
@@ -36,7 +36,7 @@ namespace T25_04_02_HomeworkCardGame
 
         }
 
-        public static void ShowHand(PlayerModel player)
+        internal static void ShowHand(PlayerModel player)
         {
             Console.WriteLine();
             Console.WriteLine($"{player.PlayerName}'s hand:");
@@ -46,21 +46,14 @@ namespace T25_04_02_HomeworkCardGame
             }
         }
 
-        public static void PlayerWon(PlayerModel player)
+        internal static void PlayerWon(PlayerModel player)
         {
             Console.WriteLine();
             Console.WriteLine($"Player {player.PlayerName} has won the game.");
             ExitGame();
         }
 
-        public static void PlayerLost(PlayerModel player)
-        {
-            Console.WriteLine();
-            Console.WriteLine($"Player {player.PlayerName} has lost the game.");
-            ExitGame();
-        }
-
-        public static void ExitGame()
+        internal static void ExitGame()
         {
             Console.WriteLine();
             Console.WriteLine("Thank You for playing. Goodbye.");

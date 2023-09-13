@@ -6,7 +6,7 @@ namespace T25_04_02_HomeworkCardGame.Games
     internal abstract class Deck
     {
         protected List<PlayingCardModel> fullDeck = new();
-        public List<PlayingCardModel> drawPile = new();
+        protected List<PlayingCardModel> drawPile = new();
         // protected List<PlayingCardModel> discardPile = new();
 
         protected void CreateDeck()
@@ -22,20 +22,15 @@ namespace T25_04_02_HomeworkCardGame.Games
             }
         }
 
-        public virtual void ShuffleDeck()
+        internal virtual void ShuffleDeck()
         {
             var rnd = new Random();
             drawPile = fullDeck.OrderBy(x => rnd.Next()).ToList();
         }
 
-        public abstract void DealCards(PlayerModel player);
+        internal abstract void DealCards(PlayerModel player);
 
-        public PlayingCardModel RequestCard()
-        {
-            return DrawOneCard();
-        }
-
-        public virtual PlayingCardModel DrawOneCard()
+        internal virtual PlayingCardModel DrawOneCard()
         {
             PlayingCardModel output = drawPile.Take(1).First();
             drawPile.Remove(output);

@@ -1,4 +1,5 @@
 ﻿
+using System.Numerics;
 using T25_04_02_HomeworkCardGame.Games;
 using T25_04_02_HomeworkCardGame.Models;
 
@@ -11,62 +12,52 @@ namespace T25_04_02_HomeworkCardGame
     {
         static void Main(string[] args)
         {
-            do
-            {
-                CardGameUI.WellcomeToGame();
+            CardGameUI.WellcomeToGame();
 
-                // Create players
-                List<PlayerModel> players = new()
+            // Create players
+            List<PlayerModel> players = new()
                 {
                     CardGameLogic.CreatePlayer(),
                     CardGameLogic.CreatePlayer(isComputerPlayer: true)
                 };
 
+            // Create game
+            BlackJackDeck blackJack = new();
 
-                // Deal cards
-                BlackJackDeck blackJack = new();
+            // Deal cards
+            foreach (var player in players)
+            {
+                blackJack.DealCards(player);
+            }
 
-                foreach (var player in players)
+            // Show the dealt hands
+            Console.WriteLine("Dealt hands:");
+            foreach (var player in players)
+            {
+                CardGameUI.ShowHand(player);
+            }
+
+            // Play game
+            int turn = 0;
+
+            do
+            {
+                Console.WriteLine($"Turn {++turn}:");
+
+                if (BlackJackDeck.CheckForWinner(players).winners.Count > 0)
                 {
-                    blackJack.DealCards(player);
+
                 }
 
-                do
+                foreach (var activePlayer in players)
                 {
-                    foreach (var player in players)
+
+                    if (BlackJackDeck.Hit(activePlayer))
                     {
-                        CardGameUI.ShowHand(player);
-
-                        if (BlackJackDeck.IsNatural(player))
-                        {
-                            CardGameUI.PlayerWon(player);
-                        }
-
-                        if (BlackJackDeck.IsBust(player))
-                        {
-                            CardGameUI.PlayerLost(player);
-                        }
-
-                        if (BlackJackDeck.Hit(player))
-                        {
-                            player.Hand.Add(blackJack.DrawOneCard());
-                            CardGameUI.ShowHand(player);
-                        }
-
-                        if (BlackJackDeck.IsNatural(player))
-                        {
-                            CardGameUI.PlayerWon(player);
-                        }
-
-                        if (BlackJackDeck.IsBust(player))
-                        {
-                            CardGameUI.PlayerLost(player);
-                        }
+                        activePlayer.Hand.Add(blackJack.DrawOneCard());
+                        CardGameUI.ShowHand(activePlayer);
                     }
-
-                    //Console.ReadKey();
-                    //CardGameUI.ExitGame();
-                } while (true);
+                }
             } while (true);
         }
     }

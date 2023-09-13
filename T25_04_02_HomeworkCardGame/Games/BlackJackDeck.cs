@@ -1,16 +1,18 @@
-﻿using T25_04_02_HomeworkCardGame.Models;
+﻿using System.Collections.Generic;
+using System.Numerics;
+using T25_04_02_HomeworkCardGame.Models;
 
 namespace T25_04_02_HomeworkCardGame.Games
 {
     internal class BlackJackDeck : Deck
     {
-        public BlackJackDeck()
+        internal BlackJackDeck()
         {
             CreateDeck();
             ShuffleDeck();
         }
 
-        public override void DealCards(PlayerModel player)
+        internal override void DealCards(PlayerModel player)
         {
             for (int i = 0; i < 2; i++)
             {
@@ -18,9 +20,67 @@ namespace T25_04_02_HomeworkCardGame.Games
             }
         }
 
-        public static bool IsNatural(PlayerModel player)
+        internal static bool Hit(PlayerModel player)
         {
-            if (TotalCount(player).totalCount == 21)
+            if (player.IsComputerPlayer == false)
+            {
+                do
+                {
+                    Console.WriteLine();
+                    Console.Write("Hit or Stand (hit/stand or \"exit\" to exit)? ");
+                    string? answer = Console.ReadLine();
+
+                    if (answer?.ToLower() == "h" || answer?.ToLower() == "hit")
+                    {
+                        return true;
+                    }
+                    else if (answer?.ToLower() == "s" || answer?.ToLower() == "stand")
+                    {
+                        return false;
+                    }
+                    else if (answer?.ToLower() == "exit")
+                    {
+                        CardGameUI.ExitGame();
+                    }
+
+                    Console.WriteLine("Please answer with \"h\"/\"s\" or \"exit\" to exit");
+                } while (true);
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        internal static (List<PlayerModel> winners, List<PlayerModel> loosers) CheckForWinner
+            (List<PlayerModel> players)
+        {
+            List<PlayerModel> winners = new();
+            List<PlayerModel> loosers = new();
+
+            foreach (var player in players)
+            {
+                (int totalCount, int aceCount) = TotalCount(player);
+
+                if (IsNatural(totalCount))
+                {
+                    winners.Add(player);
+                    continue;
+                }
+
+                if (IsBust(totalCount, aceCount))
+                {
+                    loosers.Add(player);
+                    continue;
+                }
+            }
+
+            return (winners, loosers);
+        }
+
+        private static bool IsNatural(int totalCount)
+        {
+            if (totalCount == 21)
             {
                 return true;
             }
@@ -28,15 +88,13 @@ namespace T25_04_02_HomeworkCardGame.Games
             return false;
         }
 
-        public static bool IsBust(PlayerModel player)
+        private static bool IsBust(int totalCount, int aceCount)
         {
-            int totalCount = TotalCount(player).totalCount;
-            int aceCount = TotalCount(player).aceCount;
-
             if (totalCount > 21 && aceCount == 0)
             {
                 return true;
             }
+
             if (totalCount > 21 && aceCount > 0)
             {
                 totalCount -= 10;
@@ -45,8 +103,6 @@ namespace T25_04_02_HomeworkCardGame.Games
                 {
                     return true;
                 }
-
-                return false;
             }
 
             return false;
@@ -96,35 +152,6 @@ namespace T25_04_02_HomeworkCardGame.Games
             }
 
             return (totalCount, aceCount);
-        }
-
-        public static bool Hit(PlayerModel player)
-        {
-            if (player.IsComputerPlayer == false)
-            {
-                do
-                {
-                    Console.Write("Hit or Stand (hit/stand or \"exit\" to exit)? ");
-                    string? answer = Console.ReadLine();
-
-                    if (answer?.ToLower() == "h" || answer?.ToLower() == "hit")
-                    {
-                        return true;
-                    }
-                    else if (answer?.ToLower() == "s" || answer?.ToLower() == "stand")
-                    {
-                        return false;
-                    }
-                    else if (answer?.ToLower() == "exit")
-                    {
-                        CardGameUI.ExitGame();
-                    }
-
-                    Console.WriteLine("Please answer with \"h\"/\"s\" or \"exit\" to exit");
-                } while (true);
-            }
-
-            return true;
         }
     }
 }

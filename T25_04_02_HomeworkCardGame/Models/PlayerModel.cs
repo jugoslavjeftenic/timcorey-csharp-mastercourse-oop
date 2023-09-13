@@ -5,11 +5,11 @@ namespace T25_04_02_HomeworkCardGame.Models
 {
     internal class PlayerModel
     {
-        public bool IsComputerPlayer { get; private set; }
-        public string PlayerName { get; private set; }
-        public List<PlayingCardModel> Hand { get; set; }
+        internal bool IsComputerPlayer { get; private set; }
+        internal string PlayerName { get; private set; }
+        internal List<PlayingCardModel> Hand { get; set; }
 
-        public PlayerModel(bool isComputerPlayer)
+        internal PlayerModel(bool isComputerPlayer)
         {
             IsComputerPlayer = isComputerPlayer;
 

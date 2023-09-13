@@ -5,7 +5,7 @@ namespace T25_04_02_HomeworkCardGame.Models
 {
     internal class PlayingCardModel
     {
-        public CardSuit Suit { get; set; }
-        public CardValue Value { get; set; }
+        internal CardSuit Suit { get; set; }
+        internal CardValue Value { get; set; }
     }
 }
