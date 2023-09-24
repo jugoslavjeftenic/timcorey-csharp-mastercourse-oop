@@ -69,6 +69,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_03_02_HomeworkMethodOve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_04_01_CardGame", "T25_04_01_CardGame\T25_04_01_CardGame.csproj", "{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T25_04_02_HomeworkCardGame", "T25_04_02_HomeworkCardGame\T25_04_02_HomeworkCardGame.csproj", "{5D5A5600-2CAB-4D00-8D4F-50DF92929C82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66BFFE20-4D13-42FF-8E2C-57951CFE73EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5A5600-2CAB-4D00-8D4F-50DF92929C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5A5600-2CAB-4D00-8D4F-50DF92929C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5A5600-2CAB-4D00-8D4F-50DF92929C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5A5600-2CAB-4D00-8D4F-50DF92929C82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
