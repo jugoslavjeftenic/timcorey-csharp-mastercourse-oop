@@ -73,11 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T25_04_02_HomeworkCardGame"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T26_01_01_MethodOverloading", "T26_01_01_MethodOverloading\T26_01_01_MethodOverloading.csproj", "{7F2D57DA-E254-4ED1-BB5E-FF37FAE18B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T26_01_02_HomeworkMethodOverloading", "T26_01_02_HomeworkMethodOverloading\T26_01_02_HomeworkMethodOverloading.csproj", "{E415F00E-A505-4466-B9E0-A91E2D0654D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T26_01_02_HomeworkMethodOverloading", "T26_01_02_HomeworkMethodOverloading\T26_01_02_HomeworkMethodOverloading.csproj", "{E415F00E-A505-4466-B9E0-A91E2D0654D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T26_02_01_ExtensionMethods", "T26_02_01_ExtensionMethods\T26_02_01_ExtensionMethods.csproj", "{8EF9F4D7-DB1F-4E0B-B14F-46E8676C5DC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T26_02_01_ExtensionMethods", "T26_02_01_ExtensionMethods\T26_02_01_ExtensionMethods.csproj", "{8EF9F4D7-DB1F-4E0B-B14F-46E8676C5DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T26_02_02_HomeworkExtensionMethods", "T26_02_02_HomeworkExtensionMethods\T26_02_02_HomeworkExtensionMethods.csproj", "{E5D3E6EC-DB14-479A-AA3E-934CD4CB5F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T26_02_02_HomeworkExtensionMethods", "T26_02_02_HomeworkExtensionMethods\T26_02_02_HomeworkExtensionMethods.csproj", "{E5D3E6EC-DB14-479A-AA3E-934CD4CB5F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T26_03_01_MiniProject", "T26_03_01_MiniProject\T26_03_01_MiniProject.csproj", "{A82941AC-60DE-4B16-8CDB-EABBE8409FE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{E5D3E6EC-DB14-479A-AA3E-934CD4CB5F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5D3E6EC-DB14-479A-AA3E-934CD4CB5F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5D3E6EC-DB14-479A-AA3E-934CD4CB5F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82941AC-60DE-4B16-8CDB-EABBE8409FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82941AC-60DE-4B16-8CDB-EABBE8409FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82941AC-60DE-4B16-8CDB-EABBE8409FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82941AC-60DE-4B16-8CDB-EABBE8409FE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
