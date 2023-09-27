@@ -85,7 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T26_03_02_HomeworkMiniProje
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T27_01_01_Generics", "T27_01_01_Generics\T27_01_01_Generics.csproj", "{161FF877-4A7C-4779-A4AC-60D2D0678EDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T27_01_02_HomeworkGenerics", "T27_01_02_HomeworkGenerics\T27_01_02_HomeworkGenerics.csproj", "{F06C7F7F-35A5-4187-BD83-9991A3690B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T27_01_02_HomeworkGenerics", "T27_01_02_HomeworkGenerics\T27_01_02_HomeworkGenerics.csproj", "{F06C7F7F-35A5-4187-BD83-9991A3690B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T27_02_01_Events", "T27_02_01_Events\T27_02_01_Events.csproj", "{1E2F77D3-1FAD-4F8E-8491-845AFEF1F64B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{F06C7F7F-35A5-4187-BD83-9991A3690B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F06C7F7F-35A5-4187-BD83-9991A3690B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F06C7F7F-35A5-4187-BD83-9991A3690B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2F77D3-1FAD-4F8E-8491-845AFEF1F64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2F77D3-1FAD-4F8E-8491-845AFEF1F64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2F77D3-1FAD-4F8E-8491-845AFEF1F64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2F77D3-1FAD-4F8E-8491-845AFEF1F64B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
