@@ -87,9 +87,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T27_01_01_Generics", "T27_0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T27_01_02_HomeworkGenerics", "T27_01_02_HomeworkGenerics\T27_01_02_HomeworkGenerics.csproj", "{F06C7F7F-35A5-4187-BD83-9991A3690B51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T27_02_01_Events", "T27_02_01_Events\T27_02_01_Events.csproj", "{1E2F77D3-1FAD-4F8E-8491-845AFEF1F64B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T27_02_01_Events", "T27_02_01_Events\T27_02_01_Events.csproj", "{1E2F77D3-1FAD-4F8E-8491-845AFEF1F64B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T27_02_02_HomeworkEvents", "T27_02_02_HomeworkEvents\T27_02_02_HomeworkEvents.csproj", "{49372A42-F9CA-4B08-BD62-B9B29C3A66E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T27_02_02_HomeworkEvents", "T27_02_02_HomeworkEvents\T27_02_02_HomeworkEvents.csproj", "{49372A42-F9CA-4B08-BD62-B9B29C3A66E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T27_03_01_MiniProject", "T27_03_01_MiniProject\T27_03_01_MiniProject.csproj", "{1243D8E5-6080-40C2-BFB5-7EDAC68B327F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +275,10 @@ Global
 		{49372A42-F9CA-4B08-BD62-B9B29C3A66E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49372A42-F9CA-4B08-BD62-B9B29C3A66E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49372A42-F9CA-4B08-BD62-B9B29C3A66E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1243D8E5-6080-40C2-BFB5-7EDAC68B327F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1243D8E5-6080-40C2-BFB5-7EDAC68B327F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1243D8E5-6080-40C2-BFB5-7EDAC68B327F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1243D8E5-6080-40C2-BFB5-7EDAC68B327F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
