@@ -1,0 +1,4 @@
+StartingCity,DestinationCity,PlannedDistanceInKM,DistanceInKM
+Subotica;Sombor;60;61,2
+Sombor;Odzaci;35,9;32,7
+Odzaci;Subotica;84,4;93,4
